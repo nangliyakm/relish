@@ -1,0 +1,84 @@
+/* body {
+    background-image : url('rel2.jpg');
+    background-repeat : no-repeat;
+    background-attachment : fixed; 
+    background-size : cover;
+} */
+/* .centered {
+   position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); 
+  text-align : center;
+   color:#F5F2D8;
+  font-size: 60px; 
+  font-style: italic;
+  font-family: "Lucida Handwriting",Cursive;
+}
+.para {
+  font-size: 40px; 
+  font-style: italic;
+  font-family: 'Times New Roman', Times, serif;
+} */
+
+#home {
+  background: url('rel2.jpg') no-repeat center center fixed;
+  display: table;
+  width:100%;
+  height:100%;
+  position:absolute;
+  background-size:cover;
+}
+#head1 {
+  font-family: "Lucida Handwriting",Cursive;
+  font-size: 60px; 
+}
+#head3 {
+  font-size: 40px; 
+  font-style: italic;
+  font-family: 'Times New Roman', Times, serif;
+   /* color:#A9A791; */
+  color:#F2A58B;
+}
+.text {
+  display:table-cell;
+  text-align: center;
+  vertical-align:middle;
+  /* color:#F5F2D8; */
+  color:#ffe5b4;
+  font-family: "Lucida Handwriting",Cursive;
+}
+#about {
+  background: url('abt1.jpg') no-repeat center center scroll;
+  display: table;
+  width: 100%;
+  height: 500px;
+  position:relative;
+  background-size:cover;
+}
+.abt-bg {
+  background-color: #F2E6A5;
+  /* background-color: #C9BD7D; */
+}
+
+
+#menu-bg {
+  background-color: #F9EBC0;
+}
+.algn-text {
+  text-align: center;
+  margin-top:70px;
+}
+.txt-left {
+  text-align: left;
+  margin-left: 130px;
+}
+.table-padding{
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 10px;
+}
+.footer-style {
+  background-color:#080808;
+  color:white;
+}
